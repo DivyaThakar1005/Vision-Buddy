@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.vision_buddy_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = "26.1.10909125"
+    ndkVersion = flutter.ndkVersion
+
 
 
     compileOptions {

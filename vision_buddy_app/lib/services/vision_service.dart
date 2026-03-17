@@ -4,7 +4,11 @@ import 'package:http/http.dart' as http;
 class VisionService {
   // ⚠️ CHANGE THIS to your laptop IP at hackathon
   // Run: ipconfig (Windows) or ifconfig (Mac) to find it
+<<<<<<< HEAD
   static const String baseUrl = 'http://localhost:8000';
+=======
+  static const String baseUrl = 'http://192.168.1.100:8000';
+>>>>>>> origin/main
 
   static Future<String> analyzeImage({
     required String base64Image,
