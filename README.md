@@ -1,15 +1,15 @@
-# VisionBuddy 👁️🤖
+# VisionBuddy 
 
 An AI-powered vision assistance app that helps visually impaired users navigate the world through voice descriptions. VisionBuddy uses NVIDIA's AI models to analyze images and provide conversational audio descriptions.
 
-## 🎯 Project Overview
+##  Project Overview
 
 VisionBuddy is a cross-platform accessibility app consisting of:
 - **Flutter Mobile App**: Captures photos and provides text-to-speech functionality
 - **FastAPI Backend**: Processes images using NVIDIA AI models
 - **NVIDIA AI Integration**: Leverages NVIDIA NIMs for computer vision and language processing
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 VisionBuddy/
@@ -27,7 +27,7 @@ VisionBuddy/
 └── .env                      # Environment variables
 ```
 
-## 🔧 Technology Stack
+##  Technology Stack
 
 ### Mobile App (Flutter)
 - **Framework**: Flutter 3.11.1
@@ -55,20 +55,20 @@ VisionBuddy/
   - `nvidia/nemotron-mini-4b-instruct` - Text generation
   - Vision models for image analysis
 
-## 🚀 Features
+##  Features
 
 ### Current Features
-- ✅ **Camera Integration**: Capture photos using device camera
-- ✅ **Image Analysis**: Process images with NVIDIA AI models
-- ✅ **Text-to-Speech**: Convert descriptions to audio
-- ✅ **Multiple Analysis Modes**:
+- **Camera Integration**: Capture photos using device camera
+- **Image Analysis**: Process images with NVIDIA AI models
+- **Text-to-Speech**: Convert descriptions to audio
+- **Multiple Analysis Modes**:
   - General description
   - Medical assistance
   - Navigation help
   - Text reading
   - Money identification
-- ✅ **RESTful API**: FastAPI backend with CORS support
-- ✅ **Cross-Platform**: Flutter app for iOS/Android
+- **RESTful API**: FastAPI backend with CORS support
+- **Cross-Platform**: Flutter app for iOS/Android
 
 ### API Endpoints
 - `GET /` - Health check
@@ -76,7 +76,7 @@ VisionBuddy/
 - `POST /analyze` - Full image analysis with enhanced descriptions
 - `POST /analyze/quick` - Fast image analysis (no enhancement)
 
-## 📱 Mobile App Features
+## Mobile App Features
 
 ### Permissions Required
 - **Camera**: Capture photos for analysis
@@ -89,7 +89,7 @@ VisionBuddy/
 - Voice feedback for all interactions
 - Camera preview with capture functionality
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Python 3.14+ with virtual environment
@@ -144,7 +144,7 @@ VisionBuddy/
    flutter run
    ```
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 - `test_nvidia.py` - Tests NVIDIA API integration
@@ -159,7 +159,7 @@ python test_nvidia.py
 
 Expected output: AI-generated response from NVIDIA model
 
-## 🔑 Environment Configuration
+## Environment Configuration
 
 ### Required Environment Variables
 ```bash
@@ -172,7 +172,7 @@ The project uses Python virtual environment located at:
 - Main environment: `.venv/`
 - Legacy environment: `venv/`
 
-## 📂 Project Structure Details
+## Project Structure Details
 
 ### Backend (`/backend/`)
 - **`main.py`**: FastAPI application with CORS middleware
@@ -188,9 +188,9 @@ The project uses Python virtual environment located at:
   - `tts_service.dart`: Text-to-speech functionality
 - **`android/app/src/main/AndroidManifest.xml`**: Android permissions and configuration
 
-## 🎯 Current Status
+##  Current Status
 
-### ✅ Completed
+###  Completed
 - [x] FastAPI backend with image analysis endpoints
 - [x] Flutter app with camera integration
 - [x] NVIDIA API integration setup
@@ -199,13 +199,13 @@ The project uses Python virtual environment located at:
 - [x] Environment configuration
 - [x] Basic image processing utilities
 
-### 🚧 In Progress
+###  In Progress
 - [ ] Complete NVIDIA vision model integration in `vision.py`
 - [ ] Implement enhanced description generation
 - [ ] Add error handling and user feedback
 - [ ] UI/UX improvements for accessibility
 
-### 📋 TODO
+###  TODO
 - [ ] Complete image analysis pipeline
 - [ ] Add offline mode capabilities
 - [ ] Implement user preferences
@@ -214,7 +214,7 @@ The project uses Python virtual environment located at:
 - [ ] Comprehensive testing suite
 - [ ] App store deployment preparation
 
-## 🤝 Contributing
+##  Contributing
 
 This is an accessibility-focused project. Contributions should prioritize:
 1. **Accessibility**: Voice feedback, large UI elements, screen reader compatibility
@@ -222,11 +222,11 @@ This is an accessibility-focused project. Contributions should prioritize:
 3. **Reliability**: Robust error handling and offline capabilities
 4. **Privacy**: Minimal data collection, local processing where possible
 
-## 📄 License
+##  License
 
 This project is developed as an accessibility tool. Please ensure any usage complies with NVIDIA's API terms of service.
 
-## 🆘 Support
+##  Support
 
 For issues or questions:
 1. Check the test files for API connectivity
