@@ -1,0 +1,12 @@
+
+venv/
+__pycache__/
+*.pyc
+.env
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.apk
+*.aab
+vision_buddy_app/build/
